@@ -1,12 +1,12 @@
 from Myro import *
-init()
 
 forward(1, 5)
 turnBy(180, "deg")
-forward(1, 5)
+forward(1, 3)
 takePicture()
-showPicture()
-    
+
+picture=takePicture()
+show(picture)
 
     
 
